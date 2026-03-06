@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v8.2/.Modules/settings.schema.json",
+  "type": "PTE",
+  "country": "w1",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "projects": ["bc-extension"],
+  "doNotRunTests": true,
+  "doNotPublishApps": true,
+  "useCompilerFolder": true,
+  "environments": ["Sandbox"],
+  "DeployToSandbox": {
+    "ContinuousDeployment": true,
+    "Branches": "main"
+  }
+}

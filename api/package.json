@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/functions/*.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "func start",
+    "prestart": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@azure/functions": "^4.11.2",
+    "@azure/identity": "^4.13.0",
+    "@azure/msal-node": "^5.0.6",
+    "@azure/storage-blob": "^12.31.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "jose": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  }
+}
