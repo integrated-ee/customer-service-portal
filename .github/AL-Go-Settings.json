@@ -5,7 +5,6 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "projects": ["bc-extension"],
   "doNotRunTests": true,
-  "doNotPublishApps": true,
   "useCompilerFolder": true,
   "environments": ["Sandbox"],
   "DeployToSandbox": {
